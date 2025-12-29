@@ -34,10 +34,11 @@ body {
 }
 
 #root {
-  max-width: 900px;
-  width: 100%;
+  max-width: 700px;
+  /* Reduced from 900px */
+  width: 95%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -51,37 +52,7 @@ h3 {
   text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
 }
 
-button {
-  font-family: 'Orbitron', sans-serif;
-  border-radius: 4px;
-  padding: 0.8em 1.5em;
-  font-size: 1em;
-  font-weight: 700;
-  letter-spacing: 1px;
-  background: rgba(0, 240, 255, 0.1);
-  border: 1px solid var(--neon-blue);
-  color: var(--neon-blue);
-  cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  text-transform: uppercase;
-  position: relative;
-  overflow: hidden;
-}
-
-button:hover:not(:disabled) {
-  background: var(--neon-blue);
-  color: #000;
-  box-shadow: 0 0 20px var(--neon-blue);
-  transform: translateY(-2px);
-}
-
-button:disabled {
-  border-color: var(--text-secondary);
-  color: var(--text-secondary);
-  background: transparent;
-  cursor: not-allowed;
-  opacity: 0.5;
-}
+/* ... existing button styles ... */
 
 /* Glassmorphism Card */
 .card {
@@ -92,54 +63,54 @@ button:disabled {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   border-left: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
-  padding: 3rem;
+  padding: 2rem;
+  /* Reduced from 3rem */
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-  margin-top: 2rem;
+  margin-top: 1rem;
   position: relative;
 }
 
-/* Decorative tech elements */
-.card::before,
-.card::after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border: 2px solid var(--text-secondary);
-  transition: all 0.3s;
-}
-
-.card::before {
-  top: -2px;
-  left: -2px;
-  border-right: 0;
-  border-bottom: 0;
-}
-
-.card::after {
-  bottom: -2px;
-  right: -2px;
-  border-left: 0;
-  border-top: 0;
-}
-
-.card:hover::before,
-.card:hover::after {
-  border-color: var(--neon-blue);
-  width: 40px;
-  height: 40px;
-}
+/* ... card decoration ... */
 
 .title {
-  font-size: 3.5em;
-  margin-bottom: 2rem;
+  font-size: 2.5em;
+  /* Reduced from 3.5em */
+  margin-bottom: 1.5rem;
   background: linear-gradient(180deg, #fff, #888);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* Override text shadow for gradient text */
   text-shadow: none;
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+/* ... progress bar ... */
+
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .options-grid {
+    grid-template-columns: 1fr;
+    /* Stack vertically on mobile */
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .option-btn {
+    padding: 1rem;
+    font-size: 1em;
+  }
 }
 
 /* Progress Bar */
@@ -332,5 +303,34 @@ a:hover {
 
 .primary-btn:hover {
   background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink));
+  border-color: transparent;
+}
+
+/* Next Button Specifics */
+.next-btn {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1.2rem;
+  font-size: 1.3em;
+  background: linear-gradient(90deg, rgba(0, 240, 255, 0.1), rgba(214, 0, 255, 0.1));
+  border: 1px solid var(--neon-blue);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+  border-radius: 8px;
+  /* More rounded */
+  color: var(--text-main);
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink));
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.4);
+  transform: translateY(-2px);
+  color: #000;
+  font-weight: bold;
   border-color: transparent;
 }
