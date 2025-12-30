@@ -30,3 +30,14 @@ export const countries = [
     "Greece",
     "Singapore"
 ];
+
+export const dictatorships = [
+    "North Korea",
+    "Russia",
+    "China",
+    "Iran",
+    "Syria",
+    "Belarus",
+    "Venezuela",
+    "Eritrea"
+];

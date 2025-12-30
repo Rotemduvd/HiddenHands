@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { cases } from '../data/cases';
-import { countries } from '../data/countries';
+import { countries, dictatorships } from '../data/countries';
 import Modal from './Modal';
 
 // Fisher-Yates shuffle
@@ -36,11 +36,15 @@ const QuizScreen = ({ onComplete }) => {
         if (questions.length > 0 && currentIndex < questions.length) {
             const currentCase = questions[currentIndex];
             // Filter out correct country from pool, shuffle, take 3
-            const pool = countries.filter(c => c !== currentCase.correctCountry);
-            const decoys = shuffle(pool).slice(0, 3);
+            // 1. Pick one random dictatorship
+            const randomDictatorship = dictatorships[Math.floor(Math.random() * dictatorships.length)];
 
-            // Combine with correct answer and shuffle
-            const newOptions = shuffle([...decoys, currentCase.correctCountry]);
+            // 2. Pick 2 other random countries (excluding correct answer and the picked dictatorship just in case)
+            const pool = countries.filter(c => c !== currentCase.correctCountry && c !== randomDictatorship);
+            const otherDecoys = shuffle(pool).slice(0, 2);
+
+            // 3. Combine: Correct + Dictatorship + 2 Others
+            const newOptions = shuffle([currentCase.correctCountry, randomDictatorship, ...otherDecoys]);
 
             setOptions(newOptions);
             setIsAnswered(false);
