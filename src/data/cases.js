@@ -1,7 +1,6 @@
 export const cases = [
     {
         id: 1,
-        country: "Netherlands",
         correctCountry: "Netherlands",
         teaser: "False accusation of thousands of parents (mostly immigrants) of benefit fraud, leading to massive debts, family breakups, and suicides.",
         details: "SyRI (System Risk Indication) - an algorithm for risk scoring and cross-referencing government data. The court ruled it violated privacy laws in 2020, leading to the government's resignation.",
@@ -10,7 +9,6 @@ export const cases = [
     },
     {
         id: 2,
-        country: "Australia",
         correctCountry: "Australia",
         teaser: "Illegal automated debt collection from citizens based on faulty income averaging ('Robodebt').",
         details: "The 'Online Compliance Intervention' algorithm wrongly calculated debts. The state paid $1.8 billion in compensation, and a Royal Commission recommended criminal charges.",
@@ -19,7 +17,6 @@ export const cases = [
     },
     {
         id: 3,
-        country: "China",
         correctCountry: "China",
         teaser: "Total surveillance of the Uyghur minority, mass internment based on 'abnormal behavior' flagged by algorithms.",
         details: "IJOP (Integrated Joint Operations Platform) combines facial recognition, WiFi spying, and mandatory apps to track individuals. Defined as crimes against humanity.",
@@ -28,7 +25,6 @@ export const cases = [
     },
     {
         id: 4,
-        country: "Russia",
         correctCountry: "Russia",
         teaser: "Arrest of protesters and draft evaders using street and metro cameras, widely used to suppress political dissent.",
         details: "Moscow used 'Safe City' facial recognition and 'Sphere' metro systems to track opposition figures and enforce the draft during the Ukraine war.",
@@ -37,7 +33,6 @@ export const cases = [
     },
     {
         id: 5,
-        country: "Iran",
         correctCountry: "Iran",
         teaser: "Automated enforcement of hijab laws using traffic cameras to identify uncovering women in vehicles.",
         details: "Facial recognition technology is used to identify women violating the 'Hijab and Chastity Law', leading to fines and vehicle confiscations.",
@@ -46,7 +41,6 @@ export const cases = [
     },
     {
         id: 6,
-        country: "United States",
         correctCountry: "United States",
         teaser: "Systematic harassment of families and minors in Florida flagged by an algorithm as potential 'future criminals'.",
         details: "Pasco County's 'Intelligence-Led Policing' used school grades and child welfare data to target residents. Ended after lawsuits and exposing reporting.",
@@ -55,7 +49,6 @@ export const cases = [
     },
     {
         id: 7,
-        country: "United States",
         correctCountry: "United States",
         teaser: "False arrests and excessive policing of minorities in Chicago due to unreliable gunshot detection alerts.",
         details: "The ShotSpotter system (acoustic sensors + AI) was found to rarely lead to evidence of gun crimes while changing police behavior detrimental to rights.",
@@ -64,7 +57,6 @@ export const cases = [
     },
     {
         id: 8,
-        country: "Argentina",
         correctCountry: "Argentina",
         teaser: "Surveillance of fugitives that wrongfully included minors in the database, leading to false detainments.",
         details: "Facial recognition in Buenos Aires linked to the CONARC database was ruled unconstitutional and halted by the court for violating rights.",
@@ -73,7 +65,6 @@ export const cases = [
     },
     {
         id: 9,
-        country: "United Kingdom",
         correctCountry: "United Kingdom",
         teaser: "Visa application filtering by an algorithm that automatically graded certain nationalities as 'high risk'.",
         details: "The Home Office's 'Visa Streaming Algorithm' was scrapped in 2020 after legal challenges claimed it contained 'entrenched racism'.",
@@ -82,7 +73,6 @@ export const cases = [
     },
     {
         id: 10,
-        country: "Slovakia",
         correctCountry: "Slovakia",
         teaser: "Election interference via a fake audio recording of a candidate planning fraud, released during election silence.",
         details: "A generative AI deepfake targeted the pro-Western candidate days before the election, contributing to his loss. Highlighted the 'liar's dividend'.",
@@ -91,7 +81,6 @@ export const cases = [
     },
     {
         id: 11,
-        country: "Indonesia",
         correctCountry: "Indonesia",
         teaser: "Rebranding a general accused of human rights violations as a 'cute grandpa' using AI-generated cartoons.",
         details: "Generative AI creates 'Gemoy' avatars for TikTok, successfully softening the image of Prabowo Subianto who won the 2024 election.",
@@ -100,7 +89,6 @@ export const cases = [
     },
     {
         id: 12,
-        country: "Venezuela",
         correctCountry: "Venezuela",
         teaser: "Government propaganda broadcast by fake American 'news anchors' to project credibility.",
         details: "Detailed use of Synthesia AI avatars to bypass sanctions and distrust in local media, mimicking foreign news reports.",
@@ -109,7 +97,6 @@ export const cases = [
     },
     {
         id: 13,
-        country: "Brazil",
         correctCountry: "Brazil",
         teaser: "Operation of a 'Hate Office' to spread disinformation and attack democratic institutions via bot networks.",
         details: "Massive use of bots on WhatsApp and social media by the Bolsonaro administration led to a Supreme Court criminal inquiry.",
@@ -118,7 +105,6 @@ export const cases = [
     },
     {
         id: 14,
-        country: "India",
         correctCountry: "India",
         teaser: "Political parties used 'resurrected' dead leaders and voice clones to mock rivals in the world's largest election.",
         details: "Widespread use of deepfakes and AI voice cloning by major parties normalized synthetic media in the 2024 elections.",
@@ -127,7 +113,6 @@ export const cases = [
     },
     {
         id: 15,
-        country: "South Korea",
         correctCountry: "South Korea",
         teaser: "Epidemic of deepfake pornography targeting women, students, and teachers spread via Telegram bots.",
         details: "A national crisis in 2024 led to a government crackdown on 'deepfake sex crimes' and legislative reforms.",
@@ -136,7 +121,6 @@ export const cases = [
     },
     {
         id: 16,
-        country: "Mexico",
         correctCountry: "Mexico",
         teaser: "Spyware targeting lawyers and international investigators probing the disappearance of 43 students.",
         details: "Pegasus spyware was found on the phones of those investigating the Ayotzinapa case, implicating the government/military.",
@@ -145,7 +129,6 @@ export const cases = [
     },
     {
         id: 17,
-        country: "Spain",
         correctCountry: "Spain",
         teaser: "Denial of electricity subsidies to vulnerable populations due to errors in the government's eligibility software.",
         details: "The BOSCO algorithm had coding 'bugs' preventing aid. A lawsuit by Civio forced partial transparency revealing the flaws.",
@@ -154,7 +137,6 @@ export const cases = [
     },
     {
         id: 18,
-        country: "Serbia",
         correctCountry: "Serbia",
         teaser: "Deployment of thousands of biometric cameras in Belgrade for mass surveillance.",
         details: "Huawei 'Safe City' facial recognition cameras were installed, sparking mass protests and privacy concerns that delayed activation.",
@@ -163,7 +145,6 @@ export const cases = [
     },
     {
         id: 19,
-        country: "Greece",
         correctCountry: "Greece",
         teaser: "Spying on the opposition leader and journalists using 'Predator' spyware.",
         details: "The 'Greek Watergate' scandal exposed illegal surveillance by the National Intelligence Service (EYP), leading to top resignations.",
@@ -172,7 +153,6 @@ export const cases = [
     },
     {
         id: 20,
-        country: "Philippines",
         correctCountry: "Philippines",
         teaser: "State-sponsored 'troll armies' attacking journalists and 'red-tagging' critics.",
         details: "Social media weaponized to spread disinformation and harass independent media like Rappler under the Duterte/Marcos administrations.",
@@ -181,7 +161,6 @@ export const cases = [
     },
     {
         id: 21,
-        country: "European Union",
         correctCountry: "European Union",
         teaser: "Testing a 'video lie detector' AI at borders to analyze micro-expressions of travelers.",
         details: "The 'iBorderCtrl' project was criticized as pseudoscience and a violation of rights. It concluded without widespread deployment.",
@@ -190,7 +169,6 @@ export const cases = [
     },
     {
         id: 22,
-        country: "Denmark",
         correctCountry: "Denmark",
         teaser: "Ranking and predicting 'at-risk' children based on sensitive family data without consent.",
         details: "The 'Gladsaxe Model' algorithm attempted to predict child abuse but was halted due to intense public backlash over privacy.",
@@ -199,7 +177,6 @@ export const cases = [
     },
     {
         id: 23,
-        country: "Uganda",
         correctCountry: "Uganda",
         teaser: "Hacking opponents' phones and surveillance of opposition leader Bobi Wine.",
         details: "Government forces used spyware, reportedly with help from Huawei technicians, to intercept communications and arrest protesters.",
@@ -208,7 +185,6 @@ export const cases = [
     },
     {
         id: 24,
-        country: "Poland",
         correctCountry: "Poland",
         teaser: "Use of military-grade spyware against the opposition's election chief during the campaign.",
         details: "Pegasus spyware was confirmed to be used against Senator Krzysztof Brejza, compromising the fairness of the 2019 elections.",
@@ -217,7 +193,6 @@ export const cases = [
     },
     {
         id: 25,
-        country: "France",
         correctCountry: "France",
         teaser: "Legalizing algorithmic video surveillance to detect 'suspicious behavior' at the 2024 Olympics.",
         details: "A controversial law allows AI monitoring of crowds (VSA), setting a precedent for biometric surveillance in the EU.",
@@ -226,7 +201,6 @@ export const cases = [
     },
     {
         id: 26,
-        country: "Italy",
         correctCountry: "Italy",
         teaser: "Police attempt to deploy real-time facial recognition in public spaces like Verona.",
         details: "The 'SARI Real Time' system was blocked by the Italian Privacy Authority for lacking a legal basis and violating rights.",
@@ -235,7 +209,6 @@ export const cases = [
     },
     {
         id: 27,
-        country: "United States",
         correctCountry: "United States",
         teaser: "A company scraped billions of facial images from the web to sell surveillance tools to police without consent.",
         details: "Clearview AI faced global backlash and fines for its unconsented facial recognition database used by law enforcement.",
