@@ -214,5 +214,45 @@ export const cases = [
         details: "Clearview AI faced global backlash and fines for its unconsented facial recognition database used by law enforcement.",
         year: "2020",
         sourceUrl: "https://www.oaic.gov.au/news/media-centre/statement-on-clearview-ai"
+    },
+    {
+        id: 28,
+        correctCountry: "United Kingdom",
+        teaser: "Police use of live facial recognition on thousands of innocent shoppers, ruled unlawful by the Court of Appeal.",
+        details: "South Wales Police used LFR (Live Facial Recognition) without proper legal frameworks or data protection impact assessments (Bridges v SWP).",
+        year: "2020",
+        sourceUrl: "https://www.libertyhumanrights.org.uk/issue/legal-challenge-Ed-Bridges-v-South-Wales-Police/"
+    },
+    {
+        id: 29,
+        correctCountry: "Germany",
+        teaser: "Police use of CIA-backed mining software to build profiles of potential suspects, ruled unconstitutional.",
+        details: "The 'HessenDATA' system (based on Palantir Gotham) allowed automated analysis of innocent people's data. The Constitutional Court struck it down in 2023.",
+        year: "2023",
+        sourceUrl: "https://www.dw.com/en/germany-top-court-strikes-down-automated-data-analysis-by-police/a-64731872"
+    },
+    {
+        id: 30,
+        correctCountry: "Australia",
+        teaser: "A secret police blacklist used algorithms to predict 'future crime', targeting indigenous children as young as 10.",
+        details: "NSW Police's 'Suspect Target Management Plan' (STMP) used risk assessment tools to proactively police people, disproportionately targeting Aboriginal youth.",
+        year: "2023",
+        sourceUrl: "https://www.abc.net.au/news/2023-11-20/leic-nsw-police-stmp-program-unlawful-conduct-investigation/103123846"
+    },
+    {
+        id: 31,
+        correctCountry: "United States",
+        teaser: "Police bypassing warrants to buy mass location data of millions of citizens from app brokers.",
+        details: "Local and federal police used 'Fog Data Science' to trace people's movements back to their homes without a warrant, exploiting a legal loophole.",
+        year: "2022",
+        sourceUrl: "https://www.eff.org/deeplinks/2022/08/inside-fog-data-science-secretive-company-selling-mass-surveillance-local-police"
+    },
+    {
+        id: 32,
+        correctCountry: "Canada",
+        teaser: "National police force secretly used illegal facial recognition on millions of citizens.",
+        details: "The RCMP broke privacy laws by using Clearview AI to run thousands of searches on Canadians, despite initially denying it.",
+        year: "2021",
+        sourceUrl: "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2021/nr-c_210610/"
     }
 ];
