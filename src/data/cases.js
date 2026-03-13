@@ -37,7 +37,7 @@ export const cases = [
         teaser: "Automated enforcement of hijab laws using traffic cameras to identify uncovering women in vehicles.",
         details: "Facial recognition technology is used to identify women violating the 'Hijab and Chastity Law', leading to fines and vehicle confiscations.",
         year: "2023",
-        sourceUrl: "https://www.iranintl.com/en"
+        sourceUrl: "https://www.iranintl.com/en/202304157485"
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ export const cases = [
         teaser: "Systematic harassment of families and minors in Florida flagged by an algorithm as potential 'future criminals'.",
         details: "Pasco County's 'Intelligence-Led Policing' used school grades and child welfare data to target residents. Ended after lawsuits and exposing reporting.",
         year: "2020",
-        sourceUrl: "https://ij.org/case/pasco-county-predictive-policing/"
+        sourceUrl: "https://ij.org/press-release/case-closed-pasco-sheriff-admits-predictive-policing-program-violated-constitution/"
     },
     {
         id: 7,
