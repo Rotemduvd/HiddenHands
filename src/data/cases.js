@@ -133,7 +133,7 @@ export const cases = [
         teaser: "Denial of electricity subsidies to vulnerable populations due to errors in the government's eligibility software.",
         details: "The BOSCO algorithm had coding 'bugs' preventing aid. A lawsuit by Civio forced partial transparency revealing the flaws.",
         year: "2022",
-        sourceUrl: "https://algorithmwatch.org/en/syri-netherlands-algorithm/"
+        sourceUrl: "https://facephi.com/en/bosco-case-and-the-impact-of-the-ai-act/"
     },
     {
         id: 18,
@@ -173,15 +173,15 @@ export const cases = [
         teaser: "Ranking and predicting 'at-risk' children based on sensitive family data without consent.",
         details: "The 'Gladsaxe Model' algorithm attempted to predict child abuse but was halted due to intense public backlash over privacy.",
         year: "2021",
-        sourceUrl: "https://algorithmwatch.org/en/gladsaxe-algorithm-child-abuse/"
+        sourceUrl: "https://www.researchgate.net/publication/373470705_Ethical_Plateaus_in_Danish_Child_Protection_Services_The_Rise_and_Demise_of_Algorithmic_Models"
     },
     {
-        id: 23,
-        correctCountry: "Uganda",
-        teaser: "Hacking opponents' phones and surveillance of opposition leader Bobi Wine.",
-        details: "Government forces used spyware, reportedly with help from Huawei technicians, to intercept communications and arrest protesters.",
-        year: "2019",
-        sourceUrl: "https://freedomhouse.org/country/uganda"
+        "id": 23,
+        "correctCountry": "Uganda",
+        "teaser": "Nationwide rollout of AI-powered facial recognition cameras supplied by Huawei raised fears the system could be used to monitor political opponents.",
+        "details": "Uganda partnered with Huawei to deploy thousands of CCTV cameras using artificial intelligence and facial recognition as part of the 'Safe City' program. Critics warned the technology could enable surveillance of activists and opposition figures.",
+        "year": "2019",
+        "sourceUrl": "https://boingboing.net/2019/08/20/uganda-installs-huaweis-ai-p.html"
     },
     {
         id: 24,
@@ -226,10 +226,10 @@ export const cases = [
     {
         id: 29,
         correctCountry: "Germany",
-        teaser: "Police use of CIA-backed mining software to build profiles of potential suspects, ruled unconstitutional.",
+        teaser: "Police use of american mining software to build profiles of potential suspects, ruled unconstitutional.",
         details: "The 'HessenDATA' system (based on Palantir Gotham) allowed automated analysis of innocent people's data. The Constitutional Court struck it down in 2023.",
         year: "2023",
-        sourceUrl: "https://www.dw.com/en/germany-top-court-strikes-down-automated-data-analysis-by-police/a-64731872"
+        sourceUrl: "https://www.reuters.com/technology/german-police-use-software-fight-crime-unlawful-court-says-2023-02-16/"
     },
     {
         id: 30,
@@ -237,7 +237,7 @@ export const cases = [
         teaser: "A secret police blacklist used algorithms to predict 'future crime', targeting indigenous children as young as 10.",
         details: "NSW Police's 'Suspect Target Management Plan' (STMP) used risk assessment tools to proactively police people, disproportionately targeting Aboriginal youth.",
         year: "2023",
-        sourceUrl: "https://www.abc.net.au/news/2023-11-20/leic-nsw-police-stmp-program-unlawful-conduct-investigation/103123846"
+        sourceUrl: "https://jec.org.au/impact/our-record/ending-the-unfair-and-unlawful-stmp/"
     },
     {
         id: 31,
